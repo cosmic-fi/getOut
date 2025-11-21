@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
       await chrome.tabs.sendMessage(tabId, { action });
     } catch (err) {
       try {
-        await chrome.scripting.executeScript({ target: { tabId }, files: ['content.js'] });
+        await chrome.scripting.executeScript({ target: { tabId }, files: ['/scripts/content.js'] });
         await chrome.tabs.sendMessage(tabId, { action });
       } catch (injectErr) {
         throw injectErr;
