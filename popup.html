@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GetOut – Hide anything in one click</title>
+  <link rel="stylesheet" href="style.css">
+<base target="_blank">
+</head>
+<body>
+  <main class="panel">
+    <!-- Header -->
+    <header class="panel__header">
+      <img src="logo.png" alt="GetOut logo" class="logo">
+      <div>
+        <h1>GetOut</h1>
+        <p class="tagline">Hide anything on any page – instantly.</p>
+      </div>
+    </header>
+
+    <!-- Primary actions -->
+    <section class="actions">
+      <button id="selectMode" class="btn btn--primary">
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/>
+        </svg>
+        <span id="selectLabel">Enter selection mode</span>
+      </button>
+
+      <button id="clearHidden" class="btn btn--secondary">
+        Clear hidden elements
+      </button>
+    </section>
+
+    <!-- Tips -->
+    <footer class="panel__footer">
+      <ul class="tips">
+        <li>Click <b>Enter selection mode</b> then click any element on the page to hide it.</li>
+        <li>Press <kbd>Esc</kbd> to exit selection mode.</li>
+        <li>Hidden items are remembered per site and synced across your devices.</li>
+      </ul>
+      <p class="credit">
+        Made with 💜 by <a href="https://github.com/cosmic-fi" target="_blank">Cosmic-fi</a>
+      </p>
+    </footer>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+</html>

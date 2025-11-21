@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "GetOut",
+  "version": "1.0",
+  "description": "Hide annoying elements on any webpage by clicking them. Selections are remembered per site and applied automatically on future visits.",
+  "permissions": ["scripting", "activeTab", "storage", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
