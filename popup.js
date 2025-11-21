@@ -1,3 +1,14 @@
+/*
+ * GetOut
+ * Lightweight content-hider Chrome extension
+ * @Author: Cosmic-fi (https://github.com/cosmic-fi)
+ * License: MIT
+ * -------------------------------------------------
+ * This file is part of the GetOut browser extension.
+ * You are free to use, modify and distribute it under the MIT license.
+ * A copy of the license is included in the root of the project.
+ */
+
 document.addEventListener('DOMContentLoaded', () => {
   const selectBtn = document.getElementById('selectMode');
   const clearBtn = document.getElementById('clearHidden');
