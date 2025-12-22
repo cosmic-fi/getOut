@@ -1,5 +1,8 @@
+
+<img width="1286" height="482" alt="Frame 33" src="https://github.com/user-attachments/assets/fab7da2b-a24b-45b0-87fb-c695bfb502a1" />
+
 # GetOut – click-to-hide anything on the web  
-Install once, hide forever.
+GetOut is a browser extension that helps you get rid of any elements on any page with just a single click and hide it forever.
 
 ---
 
@@ -14,10 +17,10 @@ Install once, hide forever.
 ## Quick install (Chrome / Edge / Brave / Opera)
 | Step | What to do |
 |------|------------|
-| 1 | Download the latest `GetOut.zip` from [Releases](https://github.com/cosmic-fi/GetOut/releases) and unzip it |
-| 2 | Open the browser and type `chrome://extensions` in the address bar |
-| 3 | Toggle **“Developer mode”** (top-right switch) |
-| 4 | Click **“Load unpacked”** and choose the unzipped `GetOut` folder |
+| 1 | Download the latest `GetOut.zip` from [Releases](https://github.com/cosmic-fi/GetOut/releases) and unzip it anywhere you prefer |
+| 2 | Open your prefered browser and navigate to the extensions page, for Google chrome it would be at this location `chrome://extensions` or just type `<yourbrowser-name>://extensions` in the address bar |
+| 3 | Look anywhere on the page and find where it says **“Developer mode”** and toggle it |
+| 4 | Click **“Load unpacked”**, navigate to where you unzipped the file and choose `GetOut` folder |
 | 5 | Pin the 🎯 icon for one-click access |
 
 That’s it—no sign-up, no permissions prompt, no restart.
